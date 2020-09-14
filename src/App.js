@@ -1,18 +1,27 @@
+
+
 import React from 'react';
-import logo from './logo.svg';
 import Click from './components/Click'
-import './App.css';
 import Toggle from './components/Toggle'
 import LoginControl from './components/LoginControl'
 import Page from './components/Page'
+import TempCalculator from './components/TempCalculator'
+import FilterableProductTable from './components/FilterableProductTable'
+import RouterFirst from './components/RouterFirst'
+import Game from './components/TicToc'
+import HookHello from './components/HookHello'
+
+
 
 function App() {
   return (
     <div className="App">
-      <Click /> 
-      <Toggle /> 
-      <LoginControl /> 
-      <Page /> 
+      {/* <Click /> 
+      <TempCalculator /> 
+      <FilterableProductTable  /> */}
+      <RouterFirst /> 
+      <Game /> 
+      <HookHello /> 
     </div>
   );
 }
